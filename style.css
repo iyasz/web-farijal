@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
 
 :root{
-    --main-color:#d3ad7f;
+    --main-color:#D63423;
     --black:#13131a;
     --bg:#010103;
+    --nav: rgb(245, 179, 56);
     --border:.1rem solid rgba(255,255,255,.3);
 }
 
@@ -69,7 +71,7 @@ section{
 }
 
 .btn:hover{
-    letter-spacing: .2rem;
+    
 }
 
 .header{
@@ -89,21 +91,21 @@ section{
 }
 
 .header .navbar a{
-    margin:0 1rem;
-    font-size: 1.6rem;
+    margin:0 2rem;
+    font-size: 15px;
     color:#fff;
 }
 
 .header .navbar a:hover{
-    color:var(--main-color);
-    border-bottom: .1rem solid var(--main-color);
+    color:var(--nav);
+    border-bottom: .1rem solid var(--nav);
     padding-bottom: .5rem;
 }
 
 .header .icons div{
     color:#fff;
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 17px;
     margin-left: 2rem;
 }
 
@@ -214,21 +216,25 @@ section{
 }
 
 .home .content{
-    max-width: 60rem;
+    max-width: 63rem;
 }
 
 .home .content h3{
-    font-size: 6rem;
+    font-size: 5.4rem;
     text-transform: uppercase;
     color:#fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .home .content p{
-    font-size: 2rem;
+    font-size: 16px;
     font-weight: lighter;
     line-height: 1.8;
     padding:1rem 0;
     color:#eee;
+    letter-spacing: 0.7px;
 }
 
 .about .row{
@@ -547,10 +553,11 @@ section{
 }
 
 .footer .credit{
-    font-size: 2rem;
+    font-size: 12px;
     color:#fff;
     font-weight: lighter;
-    padding:1.5rem;
+    padding: 1.7rem;
+    letter-spacing: 0.6px;
 }
 
 .footer .credit span{
