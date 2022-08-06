@@ -71,10 +71,13 @@ section{
     color:#fff;
     background: var(--main-color);
     cursor: pointer;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    letter-spacing: 0.3px;
 }
 
 .btn:hover{
-    
+    background: rgb(196, 75, 75);
 }
 
 .header{
@@ -293,14 +296,19 @@ section{
 
 .menu .box-container .box h3{
     color: #fff;
-    font-size: 2rem;
+    font-size: 14px;
     padding:1rem 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .menu .box-container .box .price{
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     padding:.5rem 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.6px;
 }
 
 .menu .box-container .box .price span{
@@ -310,11 +318,7 @@ section{
 }
 
 .menu .box-container .box:hover{
-    background:#fff;
-}
-
-.menu .box-container .box:hover > *{
-    color:var(--black);
+    background: rgb(20, 20, 20);
 }
 
 .products .box-container{
@@ -340,7 +344,7 @@ section{
 }
 
 .products .box-container .box .icons a:hover{
-    background:var(--main-color);
+    background: rgb(63, 41, 0);
 }
 
 .products .box-container .box .image{
@@ -353,7 +357,9 @@ section{
 
 .products .box-container .box .content h3{
     color:#fff;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .products .box-container .box .content .stars{
@@ -361,13 +367,16 @@ section{
 }
 
 .products .box-container .box .content .stars i{
-    font-size: 1.7rem;
-    color: var(--main-color);
+    font-size: 1.5rem;
+    color: var(--nav);
 }
 
 .products .box-container .box .content .price{
     color:#fff;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.7px;
 }
 
 .products .box-container .box .content .price span{
@@ -389,10 +398,13 @@ section{
 }
 
 .review .box-container .box p{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
     line-height: 1.8;
     color:#ccc;
     padding:2rem 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .review .box-container .box .user{
@@ -406,11 +418,14 @@ section{
     padding:1rem 0;
     font-size: 2rem;
     color:#fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .review .box-container .box .stars i{
     font-size: 1.5rem;
-    color:var(--main-color);
+    color:var(--nav);
+    opacity: 90%;
 }
 
 .contact .row{
@@ -469,7 +484,7 @@ section{
 }
 
 .blogs .box-container .box{
-    border:var(--border);    
+    border:var(--border);   
 }
 
 .blogs .box-container .box .image{
@@ -493,27 +508,30 @@ section{
 }
 
 .blogs .box-container .box .content .title{
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     line-height: 1.5;
     color:#fff;
-}
-
-.blogs .box-container .box .content .title:hover{
-    color:var(--main-color);
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
 }
 
 .blogs .box-container .box .content span{
-    color:var(--main-color);
+    color:var(--nav);
     display: block;
-    padding-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
+    letter-spacing: 0.5px;
 }
 
 .blogs .box-container .box .content p{
-    font-size: 1.6rem;
-    line-height: 1.8;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
     color:#ccc;
     padding:1rem 0;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
 }
 
 .footer{
@@ -536,8 +554,8 @@ section{
     border-radius: 50%;
 }
 
-.footer .share a:hover{
-    background-color: var(--main-color);
+.footer .share a:hover, .footer .links a:hover{
+    background: rgb(51, 34, 3);
 }
 
 .footer .links{
@@ -553,10 +571,6 @@ section{
     color:#fff;
     border:var(--border);
     font-size: 2rem;
-}
-
-.footer .links a:hover{
-    background:var(--main-color);
 }
 
 .footer .credit{
