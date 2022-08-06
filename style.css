@@ -59,7 +59,7 @@ section{
 }
 
 .heading span{
-    color:var(--nav);
+    color: orange;
     text-transform: uppercase;
 }
 
@@ -115,7 +115,7 @@ section{
 }
 
 .header .icons div:hover{
-    color:var(--main-color);
+    color:var(--nav);
 }
 
 #menu-btn{
