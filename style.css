@@ -53,10 +53,13 @@ section{
     text-transform: uppercase;
     padding-bottom: 3.5rem;
     font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.8px;
 }
 
 .heading span{
-    color:var(--main-color);
+    color:var(--nav);
     text-transform: uppercase;
 }
 
@@ -91,9 +94,11 @@ section{
 }
 
 .header .navbar a{
-    margin:0 2rem;
+    margin:0 1.3rem;
     font-size: 15px;
     color:#fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .header .navbar a:hover{
@@ -262,10 +267,12 @@ section{
 }
 
 .about .row .content p{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color:#ccc;
     padding:1rem 0;
-    line-height: 1.8;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .menu .box-container{
